@@ -1,0 +1,30 @@
+.App {
+  /* border: 1px solid black; */
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  background-color: #a5f3fc;
+ 
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.emojihub {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+input {
+  padding: 1rem 7rem;
+  border: 5px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
